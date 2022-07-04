@@ -1,0 +1,90 @@
+
+
+ul#album{
+    width: 800px;
+    margin: 0 auto;
+    padding: 80px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album li span{
+    opacity: 0;
+    color: rgb(255, 12, 121, 0.726);
+    text-shadow: 1px 1px 1px black;
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+
+}
+
+ul#album li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#album li:hover span{
+    opacity: 1;
+}
+
+ul#album li{
+    float: left;
+    right: 200px;
+    height: 200px;
+    margin: 30px;
+    border: 5px solid rgb(255, 12, 121, 0.726);
+    box-shadow: 1px 1px 3px black;
+    -webkit-transition: all 0.3s ease-in;
+}
+
+ul#album li#foto1{
+    background: url("fotos/Lourran-1.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+
+}
+
+ul#album li#foto2{
+    background: url("fotos/Lourran-2.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto3{
+    background: url("fotos/Lourran-3.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+    
+}
+
+ul#album li#foto4{
+    background: url("fotos/Lourran-4.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+
+ul#album li#foto5{
+    background: url("fotos/Lourran-5.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+
+ul#album li#foto6{
+    background: url("fotos/Lourran-6.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 200px 200px;
+}
+
+section h1{
+    font-family: Impact,'Arial Narrow Bold', sans-serif, sans-serif;
+    font-size: 35pt;
+    color: rgba(255, 12, 121, 0.726);
+    text-shadow: 1px 1px 20px rgb(7, 7, 7);
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+
+
+

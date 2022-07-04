@@ -1,0 +1,58 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title> Contato do DJ Lourran </title>
+    <link rel="stylesheet" href="CssDj.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+<div id ="interface">
+    <header id ='cabecalho'>
+    <hgroup>
+    <h1>Esse é site oficial do DJLourran</h1>
+    <h2>Ai meu deus, eu tô passando mal</h2>
+    <img id ="int" src = "fotos/Intlorran.png" alt ='int'>
+    <img id ="lourran" src = "fotos/Lourran.png">
+    <img id="toca" src ="fotos/toca.png">
+    <img id="original" src ='fotos/contato.png'>
+    </hgroup>
+    <nav id="menu">
+    <h1>Menu principal</h1>
+    <ul>
+        <li><a href="1°Principal.html">Inicio</a></li>
+        <li onmouseover="muda('fotos/projeto.png')" onmouseout="muda('fotos/contato.png')"><a href="2°projetos.html">Projetos</a></li>
+        <li onmouseover="muda('fotos/fotos.png')" onmouseout="muda('fotos/contato.png')"><a href="3°fotos.html">Fotos</a></li>
+        <li onmouseover="muda('fotos/contato.png')" onmouseout="muda('fotos/contato.png')"><a href="4°contatos.html">Contato</a></li>
+       </ul> 
+    </nav> 
+    <div> 
+        <p>Converse agora com o DJ Lourran - <a href="https://api.whatsapp.com/send?phone=5581999953980&text=eu%20sento%20no%20Lourran" target ="_blank">(81) 999953980</a></p>
+    </div>
+    </header>
+    <h1>Contrate o DJ Lourran</h1>
+    <form method="post" id ="contato">
+        <fieldset id="usuario"><legend>Indetificação do usuário</legend>
+            <p><label for="cemail">Email: <input type="text" id="email" name="mail" size ="20" maxlength="50" placeholder="Djlourran@gmail.com"></label></p>
+            <p><label for ="cnome">Nome: <input type="text" id="nome" name="name" size ="20" maxlength="30" placeholder="Nome Completo"></label></p>
+            <p><label for ="csenha">Senha: <input type="text" id="senha" name="key" size ="8" maxlength="10" placeholder="10 digitos"></label></p>
+        </fieldset>
+
+        <fieldset id ="endereços"><legend>Endereço</legend>
+            <p><label for ="cendereco">País Angolano</label>
+            <select>
+            <option>Kuduairo</option>
+            <option>Cubeino</option>
+            <option>Outros 34 países...</option>
+        </select></p>
+
+        </fieldset>
+    </form>
+    <footer id = "part3"> 
+        <p><a href="https://www.instagram.com/kevinvieira_xd/" target="_blank">@DJLourran</a></p>
+    </footer>
+    <script src="scriptDj.js"></script>      
+</div>
+</body>
+</html> 
