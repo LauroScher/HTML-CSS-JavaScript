@@ -1,0 +1,15 @@
+iframe#video1 {
+    position: relative;
+    left: -20px ;
+    top: 3px;
+    border: 5px solid rgb(255, 12, 121, 0.726);
+    
+}
+
+iframe#video2 {
+    position: relative;
+    left: 20px;
+    top: 3px;
+    border: 5px solid rgb(255, 12, 121, 0.726);
+    
+}

@@ -1,0 +1,8 @@
+h1 {
+    font-family: Impact,'Arial Narrow Bold', sans-serif, sans-serif;
+    font-size: 35pt;
+    color: rgba(255, 12, 121, 0.726);
+    text-shadow: 1px 1px 20px rgb(7, 7, 7);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}

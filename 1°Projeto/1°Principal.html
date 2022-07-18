@@ -1,0 +1,71 @@
+<html lang="pt-br"> <!--Utilizando HTML-->
+<head>
+    <meta charset="UTF-8"> <!--É a tag configuração de caracteres padrão-->
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="fotos/" type="image/x-icon"> 
+    <title> Site oficial do DJ Lourran </title> <!--Tag para colocar título no site na aba de navegação-->
+    <link rel="stylesheet" href="CssDj.css"> <!--Utilizando CSS-->
+    <link rel="stylesheet" href="Csstexto.css">
+</head>
+<body>
+<div id ="interface">
+    <header id ='cabecalho'>
+    <hgroup> <!--Separa os títulos em grupos, mas não tem efeito visual e sim semanticamente-->
+    <h1>Esse é site oficial do DJLourran</h1> <!--Título príncipal que será mostrado dentro do site-->
+    <h2>Ai meu deus, eu tô passando mal</h2>
+    <img id ="int" src = "fotos/Intlorran.png" alt ='int'>
+    <img id ="lourran" src = "fotos/Lourran.png">
+    <img id="toca" src ="fotos/toca.png">
+    <img id="original" src ="fotos/original.png">
+    </hgroup>
+    <nav id="menu">
+    <h1>Menu principal</h1>
+    <ul>
+     <li><a href="1°Principal.html">Inicio</a></li>
+     <li onmouseover="muda('fotos/projeto.png')" onmouseout="muda('fotos/original.png')"><a href="2°projetos.html">Projetos</a></li>
+     <li onmouseover="muda('fotos/fotos.png')" onmouseout="muda('fotos/original.png')"><a href="3°fotos.html">Fotos</a></li>
+     <li onmouseover="muda('fotos/contato.png')" onmouseout="muda('fotos/original.png')"><a href="4°contatos.html">Contato</a></li>
+    </ul> 
+</nav> 
+    </header>
+<section id ="part1">
+    <article id="principal">
+    <section id ="artigo">
+    <hgroup>
+        <h1>Saiba tudo sobre o maior DJ da Angola</h1>
+        <h4>por Lauro Scher &copy;</h4>
+    </hgroup>
+    </section>
+    <h2>O começo</h2>
+    <p style="text-align: justify;text-indent: 50px;"> <br/>O DJ Lourran conta como começou na música. “Desde o início nunca visei só o dinheiro, foquei em sempre trazer algo diferente, com intenção de me tornar um gigante, mesmo que eu perca dinheiro para alcançar este objetivo. Quero que minha música e meu trabalho sejam reconhecidos, isso acima de tudo. O que as pessoas veem hoje não é algo de momento, pois eu tenho investido no meu trabalho há anos. Eu passava todo o dia na frente do computador fazendo música.”</p>
+    <br/>
+    <h2>DJ Louran o maior entre os 36 países Angolanos</h2>
+    <figure class="fotosleg">
+        <img src ='fotos/Angol.jpg'>
+    <br/>
+    </figure>
+    <p style="text-align: justify;text-indent: 50px;">Hoje, já considerado como um produtor musical e artista de sucesso entre os príncipais países Angolanos, DJ Lorran conta como é a sua rotina profissional e exalta as conquistas alcançadas. “Fui o primeiro DJ do segmento a entrar em casas de shows da Angola, rompendo assim as barreiras que muitos conseguiram romper. Hoje a maioria do meu tempo estou viajando a trabalho, percorrendo os 36 países Angolanos e quando não estou nos palcos, estou em casa no estúdio produzindo músicas, sempre trabalhando. Sinto-me realizado por tudo que conquistei e sonho em chegar ainda mais longe, levando alegria para as pessoas, independente de sua classe social, cor ou ideologia”</p>
+    <br/><br/>
+    </article>
+</section>
+<aside id = "part2">
+    
+    <h3>Vídeo recente</h3>
+    <iframe id ="video" width="550" height="320" src="https://www.youtube.com/embed/FCVX_8E28Bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Você Senta no Lourran ?</h3>
+    
+    <img src = "fotos/yesno.png" usemap="#mapa" >
+    <map name="mapa">
+        <area shape="circle" coords="64,42,45" href="5°textos.html#Monkey" target="janela"/>
+        <area shape="circle" coords="231,42,45" href="5°textos.html#ban" target="janela"/>
+    </map>
+    <iframe src = "5°textos.html" name ="janela" id = "frame"></iframe>
+</aside> 
+    <footer id = "part3"> 
+        <p><a href="https://www.instagram.com/kevinvieira_xd/" target="_blank">@DJLourran</a></p>
+    </footer>
+    <script src="scriptDj.js"></script>  <!-- Utilizando Java script -->      
+</div>
+</body>
+</html> 
